@@ -1,0 +1,20 @@
+.first{
+    background-color: rgb(97, 128, 128);
+    padding: 1px;
+    width: 500px;
+    height: 300px;
+}
+
+.second{
+    margin: 30px;
+    padding: 20px;
+    width: 400px;
+    height: 200px;
+    background-color: rgb(184, 167, 146);
+}
+
+.third{
+    width: 400px;
+    height: 200px;
+    background-color: rgb(185, 96, 113);
+}

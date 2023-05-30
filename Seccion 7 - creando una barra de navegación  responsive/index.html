@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Primera página Web</title>
+    <link rel="stylesheet" href="responsive.css">
+</head>
+<body>
+    <div class="container-nav">
+        <nav class="navbar">
+            <a href="#" class="brand">Mi página Web</a>
+            <ul class="nav-links">
+                <li a href="#">Home</li>
+                <li a href="#">About</li>
+                <li a href="#">Services</li>
+                <li a href="#">Contact</li>
+            </ul>
+        </nav>
+        <button class="button-menu-toggle">Menu</button>
+    </div>
+    <div class="container">
+        <h1>Bienvenidos a mi primer Website!</h1>
+        <div class="row">
+            <div class="column">
+                <h2>Presentación</h2>
+                <p>Soy Ana J T Roldán, ¡y esta es mi primera página web!</p>
+                <p>Estoy aprendiendo desarrollo web para crear sitios 
+                    web visualmente atrapantes y funcionales.
+                </p>
+            </div>
+            <div class="column">
+                <h2>Lo que se viene ...</h2>
+                <p>A lo largo de este curso, estaré aprendiendo HTML, 
+                    CSS y JavaScript. Estos lenguajes me ayudarán a 
+                    crear una base sólida en el desarrollo web 
+                    front-end.
+                </p>
+                <p>Muchas gracias</p>
+            </div>
+        </div>
+    </div>
+    
+    <button onclick="showAlert()">¡Haz clic en mí!</button>
+    <form id="myForm">
+        <label for="email">Correo electrónico:</label>
+        <input type="email" id="email" name="email" required>
+        <button type="submit">Enviar</button>
+    </form>
+    
+    <script src="responsive.js"></script>
+</body>
+</html>

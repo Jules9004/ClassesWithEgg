@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Primera página Web</title>
+    <!-- <link rel="stylesheet" href="styles.css"> -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="container-nav">
+        <nav class="navbar" role="navigation">
+            <a href="index.html" class="brand">Mi página Web</a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <button class="button-menu-toggle">Menu</button>
+    </header>
+    <main>
+        <div class="services_text">
+            <h2>Nuestros Servicios</h2>
+        </div>
+        <!-- <section class="services">
+            
+            <div class="service-item">
+                <img src="imagesServices/image1.jpeg" alt="Servicio 1">
+                <h3>Servicio 1</h3>
+                <p>Programación de Servicios WEB con Java.</p>
+            </div>
+            <div class="service-item">
+                <img src="imagesServices/image2.png" alt="Servicio 2">
+                <h3>Servicio 2</h3>
+                <p>Adaptación a modelo responsive </p>
+            </div>
+            <div class="service-item">
+                <img src="imagesServices/3D.png" alt="Servicio 3">
+                <h3>Servicio 3</h3>
+                <p>Programación en 3D.</p>
+            </div>
+        </section> -->
+        <section class="services">
+            <div class="service-item">
+                <img src="imagesServices/image1.jpeg" alt="Servicio 1">
+                <div class="service-content">
+                    <h3>Servicio 1</h3>
+                    <p>Programación de Servicios WEB con Java.</p>
+                </div>
+            </div>
+            <div class="service-item">
+                <img src="imagesServices/image2.png" alt="Servicio 2">
+                <div class="service-content">
+                    <h3>Servicio 2</h3>
+                    <p>Adaptación a modelo responsive.</p>
+                </div>
+            </div>
+            <div class="service-item">
+                <img src="imagesServices/3D.png" alt="Servicio 3">
+                <div class="service-content">
+                    <h3>Servicio 3</h3>
+                    <p>Programación en 3D.</p>
+                </div>
+            </div>
+        </section>
+        
+    </main>   
+    <footer>
+        <Fragment>
+             <div class="footer">
+                <footer>
+                    <p class="copyright">&copy Copyright  -  A  J  T  R  - 2023</p>
+                    <p>Derechos reservados de autor</p>
+                    <button onclick="showAlert()" aria-label="Haz clic en mí">¡Haz clic en mí!</button>
+                </footer>
+            </div>
+        </Fragment>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
